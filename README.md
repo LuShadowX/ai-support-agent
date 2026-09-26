@@ -2,6 +2,8 @@
 
 An AI customer-support agent that **answers from your business documents** and **takes real actions**: it looks up orders, checks live stock and hands off to a human. Runs as a one-line website chat widget and as a Telegram bot.
 
+**Live demo:** https://ai-support-agent-tbk8.onrender.com (free hosting, so the first load can take ~50s)
+
 ## Features
 - **Answers from your data (RAG):** PDFs, Markdown/text files and web pages. It only answers from your content and says "I don't know" instead of making things up.
 - **Takes actions (tool calling):** order status and tracking (verified by order ID + email), live price and stock, and support tickets for human handoff.
